@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/DUOQSAPP/', // Explicitly matches your GitHub Repository name
+  base: './', // Using relative path is bulletproof for GitHub Pages
 })
